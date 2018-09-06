@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Derek Han | Resume</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
         <div class="content-wrap">
             <img class="profile-img col-narrow" src="https://images.unsplash.com/photo-1527355402643-ce92ecbbe07c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6086d28985c8a1f8f040d7e5b1204fbd&auto=format&fit=crop&w=550&q=80" alt="Derek Han">
             <div class="col-wide">
@@ -19,11 +27,12 @@
                 <p>I really like writing code. Especially in JavaScript.</p>
             </div>
         </div>
+        <a href="resume.pdf" class="btn download" download>Download PDF</a>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="project" class="work">
             <div class="content-wrap">
                 <h2>Projects</h2>
 
@@ -81,7 +90,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -105,15 +114,16 @@
 
     <!-- // Footer & contact info -->
     <footer>
-        <div class="content-wrap">
+        <div id="contact" class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
-
             <!-- Social media links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:donglak.han@gmail.com">donglak.han@gmail.com</a>
-                <a href="http://derekhan.webflow.io/">derekhan.com</a>
-                <a href="www.linkedin.com/in/hiderek">LinkedIn</a>
-                <a href="https://github.com/Donglak-Derek">Facebook</a>
+                <a href="mailto:donglak.han@gmail.com"><span><i class="fas fa-envelope"></i></span></a>
+                <a href="http://derekhan.webflow.io/"><span><i class="fas fa-pencil-alt"></i></span></a>
+                <a href="www.linkedin.com/in/hiderek"><span><i class="fab fa-linkedin"></i></span></a>
+                <a href="https://github.com/Donglak-Derek"><span><i class="fab fa-facebook-square"></i></span></a>
+                <a href="https://youtube.com"><span><i class="fab fa-youtube"></i></span></a>
+                <a href="https://github.com"><span><i class="fab fa-github"></i></span></a>
             </div>
 
             <p>Copyright 2018 by Derek Han</p>
